@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39acf34644488f445a4c56b745a883c6, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  playerData:
+    trajectoryMethod: {fileID: 11400000, guid: 2234bd775c2b4434bad7c450d71996d2, type: 2}
+    movementSpeed: {fileID: 11400000, guid: 1f2aa61885e52df4da7be406fee75f72, type: 2}
+    cameraHorizontalSensitivity: {fileID: 11400000, guid: 502cb494eb3df964d854ba9453f64fe9, type: 2}
+    cameraVerticalSensivitity: {fileID: 11400000, guid: d972a3abb262a2244bc3c1c16bf53856, type: 2}
+    cameraMinPitch: {fileID: 11400000, guid: 1e73fd0a420688941a39c288818fb9af, type: 2}
+    cameraMaxPitch: {fileID: 11400000, guid: a067b9143496a654daa8a72e4b4d0711, type: 2}
+  trajectoralMovementData:
+    maxHeight: {fileID: 11400000, guid: e4974eb8542a04544b4e82fb68c13697, type: 2}
+    duration: {fileID: 11400000, guid: 8e4dd5ff3e19004499f6d5cacb2b90ab, type: 2}
+    isBounce: {fileID: 11400000, guid: 94e6ebc15bd6c42499b5c63668cf3269, type: 2}
+    bounceHeightMultiplier: {fileID: 11400000, guid: c41da37a7bf8e7c4fae576e697ada0d1, type: 2}
+    minBounceHeight: {fileID: 11400000, guid: 4dd40ceedb745d0428f1fdd16e354228, type: 2}
+    bounceForwardMultiplier: {fileID: 11400000, guid: 111e1fa270cf0ec439de09c276ef6247, type: 2}
